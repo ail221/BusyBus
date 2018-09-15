@@ -1,0 +1,302 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "SFProText-Medium", Helvetica, Arial, serif;
+  font-size: 17px;
+  border: 1px solid #8A8A8F;
+  height: 668px;
+  width: 377px;
+}
+
+.container {
+
+}
+/* Top navigation bar */
+
+  .nav1 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background-color: rgba(248, 248, 248, 1);
+  }
+
+  .nav1 h1 {
+    margin-left: 8px;
+    color: #007AFF;
+  }
+
+  .fa-chevron-left {
+    margin-left: 8px;
+    color: #007AFF;
+  }
+
+  .Current-Location h1 {
+    margin-left: 8px;
+    color: black;
+    font-weight: bold;
+  }
+
+/* Search Box
+--------------------------------------------------------------*/
+
+#search {
+  padding-left: 10px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#search input[type="text"] {
+  background: url("../images/Search Glyph.svg") no-repeat 8px 6px #fcfcfc;
+  border: 1px solid rgba(142, 142, 147, .10);
+  font: 17px;
+  color: #8E8E93;
+  background-color: rgba(142, 142, 147, 0.1);
+  height: 32px;
+  margin-left: 8px;
+  padding: 6px 10px 6px 35px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
+}
+
+#search input[type="text"]:focus {
+  width: 343px;
+}
+
+/* Map -----------------------------------*/
+.transit-map img {
+  display: inline-block;
+  width: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 8px;
+  border-bottom: 1px solid rgba(192, 192, 192, 0.5);
+}
+
+/* regions */
+
+.bus {
+  width: 375px;
+  text-align: center;
+  position: relative;
+  margin: 0 auto;
+  height: 272px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.calendar {
+  display: inline-flex;
+  padding-top: 12px;
+  margin-left: 16px;
+}
+
+.calendar h2 {
+  font-size: 17px;
+  color: black;
+  text-align: right;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  padding-bottom: 7px;
+}
+
+.calendar img {
+  margin-bottom: 14px;
+}
+
+.information h1 {
+  text-align: left;
+  color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  margin-left: 44px;
+  background-color: rgba(192, 192, 192, 0.2);
+}
+
+li {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-size: 14px;
+}
+
+/*List titles-------------------------*/
+.titles {
+  display: flex;
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* Icons------------------------*/
+.fa-chevron-right {
+  float: right;
+  margin-top: 8px;
+  padding-right: 16px;
+  display: inline-block;
+  color: rgb(0, 122, 255);
+}
+
+.fa-plus-circle, .fa-clock {
+  float: left;
+  margin-top: 6px;
+  margin-left: 16px;
+}
+
+.fa-plus-circle {
+  color: rgba(192, 192, 192, 0.3);
+}
+
+.fa-clock {
+  color: orange;
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/*Bus inforation ----------------------*/
+.line {
+  width: 20%;
+  margin-left: 40px;
+}
+
+.stop {
+  width: 60%;
+  text-align: center;
+  margin-left: 4px;
+}
+
+.freq {
+  width: 45%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.info_1 .left {
+  margin-right: 55px;
+}
+
+.info_2 .left, .info_6 .left {
+  margin-right: 50px;
+}
+
+.info_3 .left, .info_4 .left {
+  margin-right: 45px;
+}
+
+.info_5 .left {
+  margin-right: 48px;
+}
+
+.center {
+  text-align: center;
+}
+
+.info_1 .center {
+  margin-right: 12px;
+}
+
+.info_2 .center {
+  margin-right: 78px;
+}
+
+.info_3 .center {
+  margin-right: 60px;
+}
+
+.info_4 .center {
+  margin-right: 22px;
+}
+
+.info_5 .center {
+  margin-right: 76px;
+}
+
+.info_6 .center {
+  margin-right: 20px;
+}
+
+.info_7 .left {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.info_7 .center {
+  margin-right: 20px;
+  margin-left: 10px
+}
+
+.info_7 .right {
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.info_8 .left {
+  margin-right: 0px;
+  margin-left: 25px;
+}
+
+.info_8 .center {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.info_8 .right {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.info_9 .center {
+  margin-left: 50px;
+  margin-right: 15px;
+}
+
+/* bottom navigation*/
+
+.bottom-nav {
+  width: 375px;
+  height: 44px;
+  position: absolute;
+  margin-top: 8px;
+  display: inline-flex;
+  background-color: rgba(249, 249, 249, 90%);
+}
+
+.Home {
+  padding-right: 20px;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+.Favorite {
+  margin-left: 30px;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+
+.Action {
+  padding-top: 5px;
+  padding-left: 140px;
+}

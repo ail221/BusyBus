@@ -55,21 +55,15 @@ body {
 
 #search input[type="text"] {
   background: url("../images/Search Glyph.svg") no-repeat 8px 6px #fcfcfc;
-  border: 1px solid rgba(142, 142, 147, .10);
+  border: 1px solid rgba(145, 145, 141, .10);
   font: 17px;
   color: #8E8E93;
   background-color: rgba(142, 142, 147, 0.1);
   height: 32px;
   margin-left: 8px;
   padding: 6px 10px 6px 35px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -o-border-radius: 10px;
   border-radius: 10px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
-  -o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15) inset;
 }
 
@@ -169,9 +163,6 @@ li {
 }
 
 .fa-rotate-270 {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -277,7 +268,7 @@ li {
 
 .bottom-nav {
   width: 375px;
-  height: 44px;
+  height: 43px;
   position: absolute;
   margin-top: 8px;
   display: inline-flex;

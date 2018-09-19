@@ -78,7 +78,7 @@ body {
 }
 
 /* Map -----------------------------------*/
-.transit-map img[src="images/map_square.jpg"] {
+.transit-map img {
   display: inline-block;
   width: 95%;
   padding-top: 10px;
